@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
 import { Fragment, useState } from 'react';
 
-import { DropdownOption } from './DropdownOption';
-import { DropdownSelect } from './DropdownSelect';
+import '../styling/Dropdown.css';
+import { DropdownOption } from './DropdownElements/DropdownOption';
+import { DropdownSelect } from './DropdownElements/DropdownSelect';
 import { Labels } from '../constants/labels.js';
 
 export const CustomDropdown = ({

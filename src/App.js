@@ -1,4 +1,4 @@
-import './App.css';
+import './styling/App.css';
 import { CustomDropdown } from './components/CustomDropdown';
 
 const dummyData = [
